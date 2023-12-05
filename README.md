@@ -1,6 +1,6 @@
-# MyStandard
+# ANCKR
 
-Welcome to MyStandard, a React TypeScript project powered by pnpm for package management, Apollo Client for GraphQL API integration, and Biome for linting.
+Welcome to ANCKR, a React TypeScript project powered by pnpm for package management, Apollo Client for GraphQL API integration, and Biome for linting.
 
 ## System Requirements
 
@@ -45,8 +45,8 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ANCKR/wh_mystandard_frontend.git
-   cd wh_mystandard_frontend
+   git clone https://github.com/ANCKR/wh_ANCKR_frontend.git
+   cd wh_ANCKR_frontend
    ```
 
 2. To Install project dependencies using pnpm:

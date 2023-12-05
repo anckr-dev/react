@@ -1,0 +1,11 @@
+/* The `@import` rule in SCSS is used to import other SCSS files into the current file. In this case,
+the code is importing several SCSS files: */
+@import "pages/login", "pages/pageNotFound", "components/button",
+  "components/checkbox", "components/input", "components/loader",
+  "components/candidate", "components/dashboard", "components/reactSelect",
+  "components/account", "components/checkbox", "components/customAccordion",
+  "components/job", "_partials/variables", "base/common", "layout/navbar",
+  "layout/footer", "layout/sidebar", "_partials/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,500;0,9..40,700;1,9..40,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,500;0,9..40,700;1,9..40,300&family=Inter:wght@400&display=swap");

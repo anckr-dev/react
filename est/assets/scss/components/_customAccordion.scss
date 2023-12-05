@@ -1,0 +1,105 @@
+.accordion-container {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
+.accordion-header-container-active {
+  background: linear-gradient(268.67deg, #50cdff, #be20e0 52.75%, #f7b500);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.accordion-header-btn-active {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: -1px;
+  cursor: pointer;
+
+  .header-btn-icon {
+    margin-left: 20px;
+  }
+}
+.accordion-header-container-inActive {
+  background: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion-data-request-active {
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: right;
+  color: #fff;
+}
+.accordion-data-request-inActive {
+  font-family: "DM Sans" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  background-image: linear-gradient(
+    268.67deg,
+    #50cdff,
+    #be20e0 52.75%,
+    #f7b500
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  // letter-spacing: -0.5px;
+  text-align: right;
+}
+
+.accordion-header-button-div {
+  display: flex;
+}
+.accordion-header-btn-inActive {
+  background: transparent;
+  border: none;
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 100% */
+  letter-spacing: -1px;
+  cursor: pointer;
+
+  .header-btn-icon {
+    margin-left: 20px;
+  }
+}
+.accordion-body-container {
+  // padding: 15px;
+}
+
+// .accordion-body-container.show {
+//   max-height: fit-content;
+// }
+
+.rotate-icon {
+  transition: transform 0.3s ease-in-out;
+}
+.rotated {
+  transform: rotate(180deg);
+}

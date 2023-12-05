@@ -1,0 +1,102 @@
+.sidebar-container {
+  background-color: black;
+  color: white;
+  width: auto;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: #0000;
+  transition: width 0.3s ease-in-out;
+  gap: 30px;
+  padding: 10px;
+}
+.sidebar-head {
+  cursor: pointer;
+  padding-left: 10px;
+  width: 60px;
+}
+.menu-items {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  gap: 10px;
+  padding: 10px;
+  transition: padding 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  width: 100%;
+}
+.nav-item:hover {
+  background: linear-gradient(
+    270deg,
+    #32c5ff 0.04%,
+    #b620e0 51.28%,
+    #f7b500 98.71%
+  );
+  border-radius: 10px;
+}
+.active-sidebar {
+  background: linear-gradient(
+    270deg,
+    #32c5ff 0.04%,
+    #b620e0 51.28%,
+    #f7b500 98.71%
+  );
+
+  border-radius: 10px;
+}
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar.closed .text {
+  display: none;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+// error boundary css
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.error-content {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  color: #ff0000;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* You can add more styles as needed */

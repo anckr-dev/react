@@ -1,0 +1,412 @@
+.personal-detail-required-message {
+  background: linear-gradient(268.67deg, #50cdff, #be20e0 52.75%, #f7b500);
+  opacity: 0.7;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.personal-detail-wrapper {
+  padding: 10px 70px 15px 55px;
+}
+.personal-heading {
+  margin-top: 10px;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -1px;
+  text-align: left;
+}
+.personal-subtitle {
+  color: #9b9b9b;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.5px;
+}
+
+.verification-notes {
+  color: grey;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.5px;
+}
+.required-field {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+
+  span:before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    display: inline-block;
+    color: #30b900;
+    padding: 0 6px 0 0;
+  }
+}
+
+.filter-wrapper {
+  min-width: 380px;
+  width: 30%;
+}
+.search-bar-heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin: 20px 0px 10px 0px;
+}
+.work-experience-wrapper {
+  .job-title-heading {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: left;
+  }
+}
+
+.work-experience-search {
+  display: flex;
+  gap: 60px;
+}
+.job-select {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  .select-box {
+    min-width: 350px;
+  }
+}
+
+// industry container
+.industry-container-wrapper {
+  .industry-search-bar {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .range-select-wrapper {
+    margin-top: 30px;
+    padding: 20px;
+  }
+}
+
+// company container
+.company-container-wrapper {
+  .company-search-wrapper {
+    margin-top: 15px;
+    align-items: flex-start;
+    display: flex;
+    gap: 30px;
+  }
+  .industry-search-bar {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .range-select-wrapper {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .company-select {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .company-select-wrapper {
+      width: 350px;
+    }
+  }
+}
+.select-box-wrapper {
+  width: 400px;
+}
+
+// skills in create job request
+.skill-body-wrapper {
+  padding: 30px 70px;
+  .skills-search-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+    .skills-select {
+      min-width: 400px;
+    }
+  }
+}
+
+/// education filter
+
+.education-filter-wrapper {
+  display: flex;
+  width: 100%;
+  gap: 60px;
+  .education-filter-select {
+    width: 400px;
+  }
+}
+
+// job-match-wrapper
+
+.job-match-wrapper {
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  .job-match-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .job-match-result-left {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.976px;
+      .job-match-subtitle {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .job-match-result-right {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+      .max-applicant-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .max-applicant-text {
+        color: #fff;
+        text-align: right;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.5px;
+      }
+      .max-applicant-number {
+        background: whitesmoke;
+        border-radius: 15px;
+        color: black;
+        padding: 10px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.5px;
+        text-align: left;
+      }
+      .total-applicant-section {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .total-applicant-number {
+        background-color: white;
+        border-radius: 10px;
+        .total-applicant-number-text {
+          border-radius: 15px;
+          color: transparent;
+          background-image: linear-gradient(
+            268.67deg,
+            #50cdff,
+            #be20e0 52.75%,
+            #f7b500
+          );
+          background-clip: text;
+          -webkit-background-clip: text;
+          padding: 10px;
+        }
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.5px;
+        text-align: right;
+      }
+    }
+  }
+}
+
+.bottom-nav-area {
+  display: flex;
+  background: #ffff;
+  align-items: center;
+  border-radius: 15px 15px 0px 0px;
+  padding: 15px;
+  color: black;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px;
+  justify-content: space-between;
+  .bottom-left {
+  }
+  .bottom-right {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+// job description
+.base-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.base-salary-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  .base-salary {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    border-image: linear-gradient(
+        268.67deg,
+        rgba(80, 205, 255, 0.2),
+        rgba(190, 32, 224, 0.2) 52.75%,
+        rgba(247, 181, 0, 0.2)
+      )
+      1;
+    border-image-slice: 1;
+  }
+
+  .base-input {
+    width: 55%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    flex-direction: row;
+    // gap: 30px;
+    .base-input-wrapper {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      .input-css {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.job-review-title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.job-preview-wrapper {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+
+  .job-preview-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+
+  .job-location-details {
+    color: grey;
+  }
+}
+.checkbox-review {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.linear-gradient {
+  background: linear-gradient(
+    268.67deg,
+    rgba(80, 205, 255, 0.5),
+    rgba(190, 32, 224, 0.5) 52.75%,
+    rgba(247, 181, 0, 0.5)
+  );
+  border-radius: 10px;
+  // position: absolute;
+  padding: 1px;
+  // filter: blur(0.1em);
+  overflow: hidden;
+}
+.text-box {
+  // position: relative;
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #9b9b9b;
+  font-family: "DM Sans" sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.experience-review {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.additional-subtitle {
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.5px;
+}
+.request-span {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.5px;
+}
+
+.tab-detail-span {
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.5px;
+}

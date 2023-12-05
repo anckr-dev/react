@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.active-nav {
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(270deg, #32c5ff 0.04%, #b620e0 51.28%, #f7b500 98.71%)
+      border-box;
+  border-radius: 20px;
+  border: 2px solid transparent;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.left-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.right-nav {
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.name-text {
+  padding: 5px;
+  .name-title {
+    color: #fff;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.437px;
+  }
+  .name-org {
+    color: #6f6f6f;
+
+    text-align: right;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+  }
+}
+.profile-pic {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dropdown-options {
+  position: absolute;
+  align-items: flex-start;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  color: #3e3939;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 13px;
+  font-weight: 400;
+  width: 170px;
+}
+.dropdown-option {
+  margin-top: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  // border-bottom: 1px solid #3e3939;
+}
+
+.arrow {
+  position: absolute;
+  top: -10px; /* Position the arrow above the dropdown */
+  right: 10px; /* Adjust this value to center the arrow */
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}

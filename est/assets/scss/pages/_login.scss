@@ -1,0 +1,146 @@
+.login-page-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: auto;
+  margin: 0 auto;
+  padding: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+}
+.form-group {
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    270deg,
+    #32c5ff -2.55%,
+    #b620e0 49.93%,
+    #f7b500 99.83%
+  );
+  border-radius: 10px;
+  padding: 1px;
+}
+.form-input {
+  background: #ffffff;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  color: #000;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.5px;
+}
+
+.login-title {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.login-subtitle {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  text-align: left;
+
+  color: grey;
+}
+
+.form-button {
+  background: linear-gradient(268.67deg, #50cdff, #be20e0 52.75%, #f7b500);
+  border: 1px solid #ddd;
+  color: #ffffff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login-forgot-password {
+  margin-bottom: 1rem;
+  display: flex;
+  color: #131313;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+// user Table
+
+.user-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  .user-card {
+    display: flex;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-width: 350px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    .name {
+      text-align: center;
+    }
+    .image--cover {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+
+      object-fit: cover;
+      object-position: center right;
+    }
+    .button-24 {
+      margin: 20px;
+      background: #ff4742;
+      border: 1px solid #ff4742;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+      box-sizing: border-box;
+      color: #ffffff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 16px;
+      min-height: 40px;
+      outline: 0;
+      padding: 12px 14px;
+      text-align: center;
+      text-rendering: geometricprecision;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+    }
+
+    .button-24:hover,
+    .button-24:active {
+      background-color: initial;
+      background-position: 0 0;
+      color: #ff4742;
+    }
+
+    .button-24:active {
+      opacity: 0.5;
+    }
+  }
+}

@@ -45,8 +45,8 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ANCKR/wh_ANCKR_frontend.git
-   cd wh_ANCKR_frontend
+   git clone https://github.com/anckr-dev/react.git
+   cd react
    ```
 
 2. To Install project dependencies using pnpm:
